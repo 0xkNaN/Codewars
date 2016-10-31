@@ -1,0 +1,3 @@
+function correctTail(body, tail){
+  return body.substr(body.length-(tail.length)) == tail; 
+}
